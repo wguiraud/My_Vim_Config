@@ -1,10 +1,13 @@
+"expandtab
+set expandtab
+
 set nocp 
 
 "filetype detection
 "indentation
 filetype indent on
 
-"remapping the escape key to kj 
+"remapping esc key
 imap kj <Esc>
 
 "cursor line highlight
@@ -13,6 +16,7 @@ set cursorline
 "line numbering
 set number relativenumber
 
+"syntax
 syntax on
 
 "show mode
@@ -30,22 +34,31 @@ set autoindent
 "auto completion
 set wildmenu
 
+"tab 2 spaces
 set shiftwidth=2
 
+"text width
 set textwidth=80
 
+"
 set wrap
 
+"
 set linebreak
 
+"
 set wrapmargin=2
 
+"
 set scrolloff=5
 
+"
 set sidescrolloff=15
 
+"
 set laststatus=2
 
+"
 set ruler
 
 "Hightlight matching brackets [{()}]
@@ -112,7 +125,7 @@ set foldmethod=indent
 "method folding deactivation
 "set nofoldenable 
 
-
+"experimenting with netrw
 "removing directory tree  banner 
 let g:netrw_banner = 0
 "view types for directory tree
@@ -122,4 +135,5 @@ let g:netrw_banner = 0
 "let g:netrw_altv = 1
 "set the width of the directory tree
 let g:netrw_winsize = -30
+
 
