@@ -67,6 +67,9 @@ set showmatch
 "search highlight 
 set hlsearch
 
+"to unselect hl text
+"let@/=""
+
 "incremental search
 set incsearch
 
